@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Inspiration&family=Lobster&family=Playfair+Display:wght@600&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Creepster&family=Inspiration&family=Lobster&family=Playfair+Display:wght@600&family=Yellowtail&display=swap');
+
+.header-bar {
+    background-color: var(--secondary-color);
+    box-shadow: 1px 1px 1px var(--gray-500);
+    width: 100%;
+    z-index: 1;
+}
+
+.login-section {
+    width: 12rem;
+    margin-right: 3rem;
+}
+
+.logo-design {
+    margin-top: -.7rem;
+}
+
+.logo {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1.2rem;
+}
+
+.small-txt {
+    color: var(--white);
+    font-family: 'Bad Script', cursive;
+    font-size: small;
+    font-weight: bold;
+    margin-top: -6px;
+}
+
+.search-bar {
+    width: 25%;
+    font-size: 1.1rem;
+    padding: .3rem .4rem;
+    margin: 1.1rem 0;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+}
+
+.login-btn {
+    font-size: 1.1rem;
+    padding: .3rem .8rem;
+    border: 3px solid;
+    color: var(--secondary-color);
+    border-radius: .3rem;
+    background-color: var(--white);
+
+}
+
+.login-btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--white);
+}
+
+.favorite-icon,
+.cart-icon {
+    color: var(--white);
+    font-size: 1.7rem;
+}
+
+.btn {
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: relative;
+}
+
+.badge {
+    font-size: .7rem;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    padding: 12% 24%;
+    border: 2px solid;
+    border-radius: 50%;
+    position: absolute;
+    left: 1.1rem;
+    top: -1.3rem;
+}

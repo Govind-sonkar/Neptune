@@ -1,0 +1,47 @@
+.side-bar {
+    padding: .8rem;
+    background-color: var(--white);
+    height: 90vh;
+    top: 4.6rem;
+}
+
+.clear-btn {
+    text-decoration: underline;
+}
+
+.filter-price {
+    color: var(--gray-900);
+}
+
+.slide-container {
+    margin: .3rem 0 .8rem 0;
+}
+
+.slider {
+    width: 100%;
+}
+
+.category-tx {
+    margin: var(--txt-margin);
+}
+
+.rating-section label {
+    display: block;
+    cursor: pointer;
+}
+
+.pointer,
+.pointer input {
+    cursor: pointer;
+}
+
+.category-checkbox {
+    width: .7rem;
+    height: .7rem;
+    margin-right: .3rem;
+}
+
+.sort-by label,
+.availability-section label {
+    display: block;
+}

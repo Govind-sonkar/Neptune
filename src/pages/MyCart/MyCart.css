@@ -1,0 +1,59 @@
+.cart-container {
+    margin-top: 4.5rem;
+    background-color: rgb(244, 246, 247);
+    display: grid;
+    justify-content: center;
+}
+
+.add-cart-container {
+    background-color: var(--white);
+    margin-right: 10rem;
+}
+
+.img-section {
+    text-align: center;
+}
+
+
+/*                      Price Containet                     */
+
+
+.total-price-container {
+    height: 30vh;
+    width: 20%;
+    top: 13rem;
+    right: 5rem;
+    border: 3px solid var(--secondary-color);
+    background-color: var(--white);
+}
+
+.cart-btn {
+    font-size: 1rem;
+    padding: .2rem 1.5rem;
+    width: 13rem;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    border: none;
+}
+
+.counting-section button:nth-child(1) {
+    padding: 0 .7rem;
+    font-size: 1.7rem;
+}
+
+.count-btn {
+    padding: 3px .6rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    border: 2px solid;
+    background-color: inherit;
+    color: var(--secondary-color);
+}
+
+.order-btn {
+    width: 10rem;
+    padding: .4rem 0;
+    background-color: var(--secondary-color);
+    border: none;
+    color: var(--white);
+}
